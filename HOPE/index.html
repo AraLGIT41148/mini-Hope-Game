@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="H3">
+    <div id="disapear1">
+        <p style="font-size: 8px; color: brown;">
+            <em>HOPE</em> = %7
+        </p>
+        <p id="V+" style="font-size: 25px;">3 votes</p>
+        <p id="!V+" style="font-size: 25px; color: #FF00FF;"></p>
+        <button id="N+" onclick="upvote()">Next</button>
+        <button id="H" onclick="hope()">Hope</button>
+        <br>
+        <img id="B" src="NVB hope code.png" alt="Hope Image">
+        <p id="F" style="color: red;"></p>
+        <p id="T" style="color: green;"></p>
+    </div>
+
+    <div style="text-align: center;">
+        <p>Chance: <span id="luck">3</span></p>
+        <p id="lose"></p>
+    </div>
+
+    <div id="disapear2">
+        <input type="checkbox" onclick="hard2()">
+        <p>Difficulty &lt;2&gt;</p>
+    </div>
+
+    <div id="disapear3">
+        <input type="checkbox" onclick="hard3()">
+        <p>Difficulty &lt;3&gt;</p>
+    </div>
+
+    <p id="PS">Score: <span id="S" style="color: #808000;">0</span></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

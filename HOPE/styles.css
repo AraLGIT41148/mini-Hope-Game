@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+}
+
+#disapear1 {
+    text-align: center;
+    display: block;
+}
+
+#disapear2, #disapear3 {
+    display: flex;
+}
+
+#disapear2 p, #disapear3 p {
+    font-size: 20px;
+    border: solid 2px green;
+    padding: 3px;
+    background-color: lightgreen;
+}
+
+#disapear2 p {
+    margin-right: 5px;
+}
+
+#disapear3 p {
+    margin-left: 5px;
+}
+
+#V+ {
+    font-size: 25px;
+}
+
+#!V+ {
+    font-size: 25px;
+    color: #FF00FF;
+}
+
+#PS {
+    font-size: 25px;
+}
+
+#lose {
+    font-size: 50px;
+    background-color: darkRed;
+    color: red;
+}
+
+button {
+    margin: 0 50px;
+}
+
+button#H {
+    margin-left: 50px;
+}
+
+img {
+    display: none;
+    margin: 10px 0 0 529px;
+    width: 200px;
+    height: 50px;
+}
